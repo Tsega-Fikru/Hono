@@ -8,11 +8,29 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.19.14",
-    "hono": "^4.12.14"
+    "@libsql/client": "^0.17.3",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "hono": "^4.12.15"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
+    "ts-node": "^10.9.2",
     "tsx": "^4.7.1",
     "typescript": "^5.8.3"
-  }
+  },
+  "version": "1.0.0",
+  "description": "``` npm install npm run dev ```",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsega-Fikru/Hono.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsega-Fikru/Hono/issues"
+  },
+  "homepage": "https://github.com/Tsega-Fikru/Hono#readme"
 }
